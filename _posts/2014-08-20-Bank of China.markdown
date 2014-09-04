@@ -14,5 +14,5 @@ description:
 # 中国银行财富管理系统 iPad 版
 
 ## 基本情况
-![登录页面](../img/portfolio/boc/LoginPage@2x.png)
-![登录页面](../img/portfolio/boc/LoginPage@2x.png)
+![登录页面](../img/portoflio/boc/LoginPage@2x.png)
+![登录页面](../img/portoflio/boc/LoginPage@2x.png)
