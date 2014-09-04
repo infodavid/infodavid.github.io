@@ -4,9 +4,8 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: 2014年2月
+client: 中国银行
+category: UI/UX
 description: 
-
 ---
