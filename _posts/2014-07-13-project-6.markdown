@@ -8,5 +8,4 @@ project-date: April 2014
 client: 
 category: Web Development
 description: 
-
 ---
