@@ -51,7 +51,7 @@ tel: +86 185 0003 0409
 members:
   - name: David Chen
     position: PM & UX Designer
-    text: 产品经理及用户体验设计师.
+    text: 产品经理及用户体验设计师
     img: dc01.jpg
     social:
       - title: envelope #use for email address
@@ -60,7 +60,7 @@ members:
         url: https://twitter.com/idavid_info
   - name: Aaron Chen
     position: Lead UX Designer
-    text: 技术布道师，敏捷开发鼓吹者.
+    text: 技术布道师，敏捷开发鼓吹者
     img: dc02.jpg
     social:
       - title: envelope #use for email address
@@ -69,7 +69,7 @@ members:
         url: #http://twitter.com/
   - name: Alfred Sang
     position: Lead Developer
-    text:  技术狂人.
+    text:  技术狂人
     img: sang.jpg
     social:
       - title: envelope #use for email address
@@ -78,7 +78,7 @@ members:
         url: #
   - name: Mr.Zoe
     position: Marketing
-    text:  老奸巨猾商人一枚.
+    text:  老奸巨猾商人一枚
     img: team04.jpg
     social:
       - title: envelope #use for email address
