@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "爱你"
-date: 2014-04-25 16:54:46
+title: "你好，世界！"
+date: 2014-09-19 16:54:46
 author: David
 categories: 
 - blog
