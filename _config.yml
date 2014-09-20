@@ -52,25 +52,25 @@ members:
   - name: David Chen
     position: PM & UX Designer
     text: 产品经理及用户体验设计师.
-    img: team01.jpg
+    img: dc01.jpg
     social:
       - title: envelope #use for email address
         url: mailto:idavid.info@gmail.com
       - title: twitter
         url: https://twitter.com/idavid_info
-  - name: Marco Yin
+  - name: Aaron Chen
     position: Lead UX Designer
     text: 技术布道师，敏捷开发鼓吹者.
-    img: team02.jpg
+    img: dc02.jpg
     social:
       - title: envelope #use for email address
         url: mailto:xmarco.info@gmail.com
       - title: twitter
         url: #http://twitter.com/
-  - name: Mr.Curiosity
+  - name: Alfred Sang
     position: Lead Developer
     text:  技术狂人.
-    img: team03.jpg
+    img: sang.jpg
     social:
       - title: envelope #use for email address
         url: #mailto:name@domain.com
