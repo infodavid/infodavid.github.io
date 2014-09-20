@@ -1,32 +1,107 @@
+### GENERAL SETTINGS ###
+
 # Site settings
 title: 墨井 UX
-email: idavid.info@gmail.com
-description: "专注于用户体验设计，关注前沿技术。"
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/idavid_info
-  - title: facebook
-    url: https://www.facebook.com/profile.php?id=1800471257
-  - title: stack-overflow
-    url: 
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/infodavid
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 北京市东城区
-  - line: 剩下的不说
+description: "专注于产品与用户体验设计"
+baseurl: "/DCBlog/"
+url: "infodavid.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" 
+  primary_rgb: "0, 179, 254" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url: https://www.facebook.com/idavidchen
+  - title: twitter
+    url: https://twitter.com/idavid_info
+  - title: instagram
+    url: http://instagram.com/idavidinfo/
+  - title: tumblr
+    url: http://infodavid.tumblr.com/
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 民旺园
+    - 东城区，北京
+email: idavid.info@gmail.com
+tel: +86 185 0003 0409
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: David Chen
+    position: PM & UX Designer
+    text: 产品经理及用户体验设计师.
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:idavid.info@gmail.com
+      - title: twitter
+        url: https://twitter.com/idavid_info
+  - name: Marco Yin
+    position: Lead UX Designer
+    text: 技术布道师，敏捷开发鼓吹者.
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:xmarco.info@gmail.com
+      - title: twitter
+        url: #http://twitter.com/
+  - name: Mr.Curiosity
+    position: Lead Developer
+    text:  技术狂人.
+    img: team03.jpg
+    social:
+      - title: envelope #use for email address
+        url: #mailto:name@domain.com
+      - title: twitter
+        url: #
+  - name: Mr.Zoe
+    position: Marketing
+    text:  老奸巨猾商人一枚.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:idavid.dev@gmail.com
+      - title: twitter
+        url: #http://twitter.com/
+    
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "我们从不认为设计就只是看上去的样子，设计是一个过程。"
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "让我先测试一下"
+    author:  David Chen
+    position: PM & UX Designer - MoEngine UX

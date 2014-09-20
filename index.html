@@ -1,20 +1,59 @@
 ---
-layout: default
+layout: index
+title: 首页
+permalink: /
 ---
 
-<div class="home">
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>设计</h4>
+                <p>好的体验不仅仅是满足用户需求和友好的可用性，甚至能让用户感到「怦然心动」，让设计更加「贴心」。</p>
+                <p><br/><a href="#" class="btn btn-theme">查看更多</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-flask"></i>
+                <h4>咨询服务</h4>
+                <p>我们提供「 UX 咨询」，平衡「业务目标」、「技术目标」和「用户目标」。</p>
+                <p><br/><a href="#" class="btn btn-theme">查看更多</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-trophy"></i>
+                <h4>培训</h4>
+                <p>收费和免费培训都会有的。「不打针」「不吃药」「无痛苦」「24 小时搞定 UI/UX 设计」等等，我们都没有。</p>
+                <p><br/><a href="#" class="btn btn-theme">查看更多</a></p>
+            </div>		 				
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
 
-  <h1>Posts</h1>
+{% include portfolio.html title="近期作品" limit=10 %}
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-1">
+            <h4>关于「墨井 UX」</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">更多</a></p>
+        </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <div class="col-lg-3">
+            <h4>常见问题</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %} 
+                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
 
-</div>
+        <div class="col-lg-3">
+            <h4>最近文章</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %} 
+                <p><a href="{{ post.url }}">{{ post.title }}.</a></p>
+            {% endfor %} 
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
