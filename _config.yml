@@ -3,7 +3,7 @@
 # Site settings
 title: 墨井 UX
 description: "专注于产品与用户体验设计"
-baseurl: "/DCBlog/"
+baseurl: ""
 url: "infodavid.github.io"
 
 # Build settings
