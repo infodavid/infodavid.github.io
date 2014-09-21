@@ -6,8 +6,8 @@ author: David
 categories: 
 - blog
 - Framerjs
-img: framer-icon.jpg
-thumb: framer-icon-02.jpg
+img: framer-icon.png
+thumb: framer-icon-02.png
 ---
 
 # Framer.js 中文翻译版
