@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: 墨井 UX
+title: 极克 UX
 description: "专注于产品与用户体验设计"
 baseurl: ""
 url: "infodavid.github.io"
@@ -64,7 +64,7 @@ members:
     img: dc02.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:xmarco.info@gmail.com
+        url: mailto:unique.aaron@gmail.com
       - title: twitter
         url: #http://twitter.com/
   - name: Alfred Sang
@@ -104,4 +104,4 @@ about: "我们从不认为设计就只是看上去的样子，设计是一个过
 testimonial:
     message: "让我先测试一下"
     author:  David Chen
-    position: PM & UX Designer - MoEngine UX
+    position: PM & UX Designer - Geeker UX
