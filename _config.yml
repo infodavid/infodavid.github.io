@@ -105,3 +105,6 @@ testimonial:
     message: "让我先测试一下"
     author:  David Chen
     position: PM & UX Designer - Geeker UX
+
+# paginate blog page
+paginate: 5
