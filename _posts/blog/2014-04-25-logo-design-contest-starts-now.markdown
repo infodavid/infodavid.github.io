@@ -5,8 +5,6 @@ date: 2014-04-25 16:54:46
 author: David
 categories:
 - blog
-- User Research
-- Agile Development
 - Redesign
 img: post03.jpg
 thumb: thumb03.jpg
