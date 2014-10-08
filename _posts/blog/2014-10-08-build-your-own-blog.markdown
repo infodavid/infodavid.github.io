@@ -2,7 +2,7 @@
 layout: post
 title: "快速搭建属于你自己的网站"
 date: 2014-10-09 03:21:46
-author: Admin
+author: David
 categories: 
 - blog
 - Daily News
