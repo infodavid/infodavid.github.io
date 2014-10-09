@@ -14,7 +14,7 @@ thumb: framer-icon-02.png
 
 ## 动效
 
-图层的属性可以动效化的，包括`x`, `y`, `width`, `height`, `scale`, `opcity`,` rotation`等等。并且可以一次动画处理多个属性。
+图层的属性可以动效化的，包括`x`, `y`, `width`, `height`, `scale`, `opcity`,` rotation`等等。并且可以一次动画处理多个属性。<!--more-->
 
 	layerA.animate
 	    properties:

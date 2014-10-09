@@ -14,7 +14,7 @@ thumb: framer-icon-02.png
 
 ## 拖拽
 
-要创建一个可拖拽的图层的话，非常简单，只需要设置`draggable.enabled`为`true`就可以了。你同样可以指定拖动的速度。如果你只想水平或者垂直拖动一个图层的话，下面这个方面非常有用：设置`speedX`或者是 `speedY`为0。设置值大于1，可以创建加速的拖动。
+要创建一个可拖拽的图层的话，非常简单，只需要设置`draggable.enabled`为`true`就可以了。你同样可以指定拖动的速度。如果你只想水平或者垂直拖动一个图层的话，下面这个方面非常有用：设置`speedX`或者是 `speedY`为0。设置值大于1，可以创建加速的拖动。<!--more-->
 
 	# 让图层可拖拽
 	layerA.draggable.enabled = true
