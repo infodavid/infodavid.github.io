@@ -1,3 +1,15 @@
+---
+layout: post
+title:  "现在问题来了，为什么 Android 设备需要比 iPhone 更大的 RAM"
+date:   2014-10-09 12:54:46
+author: David
+categories: 
+- blog
+- Framerjs
+img: iphone6.jpg
+thumb: iphone6-small.png
+---
+
 # 现在问题来了，为什么 iPhone 比 Android 设备需要的内存更少？
 
 一直有一个问题，市面上大部分的 Android 手机，RAM 至少都是 2GB。但是即使是 iPhone 6 plus，RAM （内存或者叫主存）也只是 1GB 而已，而且 iOS 的性能表现比 Android 更好。现在问题来了，这到底是为什么呢？
