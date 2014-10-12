@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "现在问题来了，为什么 Android 设备需要比 iPhone 更大的 RAM"
-date:   2014-10-09 12:54:46
-author: David
+date:   2014-10-12 18:20:46
+author: 大蔚陈
 categories: 
 - blog
-- Framerjs
+- Others
 img: iphone6.jpg
 thumb: iphone6-small.png
 ---
