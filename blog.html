@@ -9,6 +9,7 @@ permalink: /blog/
 
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
+        {% if site.paginate %}
         {% for post in site.categories['blog'] %}
                 <! -- Blog Post -->
                 <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}"></p>
@@ -20,6 +21,7 @@ permalink: /blog/
 
                 <div class="spacing"></div>
         {% endfor %}
+        {% endif %}
 <!--             <section class="pagination" style="text-align:center">
               {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
