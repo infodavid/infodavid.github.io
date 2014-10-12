@@ -14,7 +14,7 @@ thumb: iphone6-small.png
 
 一直有一个问题，市面上大部分的 Android 手机，RAM 至少都是 2GB。但是即使是 iPhone 6 plus，RAM （内存或者叫主存）也只是 1GB 而已，而且 iOS 的性能表现比 Android 更好。现在问题来了，这到底是为什么呢？
 
-**Android**，或者更准确地说是 **Java**，在内存管理上使用的是**垃圾回收机制**（Garbadge Collection，以下简称 GC）。
+**Android**，或者更准确地说是 **Java**，在内存管理上使用的是**垃圾回收机制**（Garbadge Collection，以下简称 GC）。<!--more-->
 
 为了更高效，GC 需要大量的空间。根据 GC 的类型，你实际上需要比你实际使用的2倍到8倍内存才能获得良好的性能。当内存受到限制的时候，系统就会明显变慢。
 
