@@ -1,13 +1,24 @@
 ---
 layout: question
 title:  "常见问题"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+date:   2014-10-21 16:54:46
+author: David Chen
 categories:
 - question
 ---
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+#### 你到底是做什么的？
+
+我做「用户体验设计」和「设计咨询」。在我的网站里，会分享对产品和设计的思考。
+
+
+#### 你做是为了赚钱么？
+
+钱，我自然是想赚的。但做这个不是，做这个是因为兴趣与爱好，所有内容免费阅读，转载需注明出处，商业用途请联系本人进行授权。
+
+
+#### 我的一些想法
+
+在这里，我不想提所谓的「互联网思维」，不空谈「大数据」，不鼓吹「O2O」。在过去的几年里，总有人教导我「要站在一定的高度上看问题」，但其实我认为脱离了具体的环境的话，这只是一句正确的废话。站在一定的层次和高度看问题，确实提供了一个不同的角度审视当前的问题，但是问题始终是问题，不是你换一个角度，问题就不存在了。所以，我更想谈的是如何解决问题，如何去做。
+
+做一个体面的移动互联网从业人员，不忽悠，不空谈。
