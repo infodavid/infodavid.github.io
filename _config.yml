@@ -110,4 +110,6 @@ highlighter: true
 
 
 paginate: 3
-paginate_path: "blog/page:num"
+paginate_path: 'blog/page:num'
+
+destination: _site/blog
