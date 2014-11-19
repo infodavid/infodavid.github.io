@@ -58,7 +58,7 @@ Square Order 从最开始的交互就开始设置用户的对导航和设计的�
 
 ### 蓝牙关闭
 
-<video width="300" height="540" src="/assets/video/order-5.mp4.mp4" controls="controls">
+<video width="300" height="540" src="http://23h1rq2wr18220xqby25x0kq.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/order-5.mov" controls="controls">
 </video>
 
 如果你没有把蓝牙打开，在应用的头部你会看到一个黄色的提示。要提醒用户需要打开蓝牙才能使用应用的话，这并不像是最显而易见的方式。但是我很喜欢它，它并没有完全阻止我和应用的其他部分进行交互。元素的转换在这真的是感觉棒极了！忍不住还要再夸赞一次！
