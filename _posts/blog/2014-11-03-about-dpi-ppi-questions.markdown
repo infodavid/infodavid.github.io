@@ -1,3 +1,15 @@
+---
+layout: post
+title:  "DPI PPI DP SP PX 概念的问题"
+date:   2014-11-19 12:54:46
+author: 大蔚陈
+categories: 
+- blog
+- Framerjs
+img: dpi-ppi.png
+thumb: small.png
+---
+
 这几个名词其实我们每天都在打交道，但大部分人并不是很清楚之间的区别，这篇文章将会解释几个概念之间的区别。
 
 ### 像素的概念
