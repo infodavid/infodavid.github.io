@@ -385,9 +385,7 @@ func buildCard(cardName: String, cardValue: Int) -> String {
 
 
 
-
-
-
+> 参考链接：[http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift)
 
 
 
