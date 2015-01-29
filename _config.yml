@@ -106,7 +106,7 @@ testimonial:
     author:  David Chen
     position: PM & UX Designer - Geeker UX
 
-highlighter: true
+pygments: true
 
 
 paginate: 3
