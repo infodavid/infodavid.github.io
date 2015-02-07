@@ -53,7 +53,9 @@ Canvas 是逐像素进行渲染的。
 #### WebGL(Web-based Graphics Language)
 
 WebGL 是一个跨平台、免费的底层 3D 绘图 API 的 Web 标准，是一套用于渲染 2D 和 3D 图形的标准图形库。作为一项强大的图形技术，WebGL 可以很好的呈现 3D 效果。iOS8 宣布支持 WEBGL 后，百度全景在移动 Web 端支持 WebGL 图形技术了，可以更逼真的模拟街道环境。
+
 ![image](/assets/img/blog/baidu-full.jpg)
+
 ![image](/assets/img/blog/baidu-full.indicator.jpg)
 
 
