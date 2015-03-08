@@ -14,6 +14,8 @@ thumb: origami-small.png
 
 随着互联网尤其是移动互联的急剧发展，设计变得更受重视，于是越来越多的产品经理和设计师开始寻找简单好用的工具。
 
+<!--more-->
+
 2014年可谓是原型工具爆发的一年，各类工具层出不穷。我也尝试用过很多种，从代码级别的 Framerjs，到  Quartz Composer，当然我最喜欢的其实还是 Xcode 和 Keynote。
 
 Origami 是 Quartz Composer 的一个库。Facebook 的设计团队在设计过程中就是用它来进行设计的。前不久 Origami 2.0 的发布，大大降低了学习难度，而且还可以在手机上实时交互，让这个工具开始火热起来了。
