@@ -103,13 +103,13 @@ about: "我们从不认为设计就只是看上去的样子，设计是一个过
 # Testimonial content. Shown on Home and About page. 
 testimonial:
     message: "让我先测试一下"
-    author:  David Chen
-    position: PM & UX Designer - Geeker UX
+    author:  大蔚陈
+    position: PM & UX Designer - MoEngine UX
 
 pygments: true
 
 
-paginate: 3
+paginate: 5
 paginate_path: 'blog/page:num'
 
 destination: _site/blog
