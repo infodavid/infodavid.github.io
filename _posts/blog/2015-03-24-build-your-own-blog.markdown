@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "快速搭建属于你自己的网站"
-date: 2014-10-09 03:21:46
-author: David
+title: "设计师们，四步快速搭建属于你自己的网站"
+date: 2015-03-24 03:21:46
+author: 大蔚陈
 categories: 
 - blog
 - Daily News
@@ -11,21 +11,29 @@ thumb: jekyll-icon.png
 ---
 
 
-说来有些惭愧，原本是计划国庆前把这篇文章写完发出的。希望能让更多的人，尤其是不懂技术的人能够搭建自己的网站。不需要服务器，不用懂什么技术，就像广告里说的不打针不吃药不运动20天就能减30斤一样。现在，来填我埋下的坑了。其实也是和大家一起打气：
+## 不懂技术，你也可以搭建自己的网站。
 
-很多事情并没有想象的那么难，只要我们敢勇敢迈出第一步。
+更新了一下这篇文章的内容，希望能让更多的人，尤其是不懂技术的人能够搭建自己的网站。
+
+不需要去买服务器，不用懂太多技术，无需备案，就像广告里说的不打针不吃药不运动20天就能减30斤一样。现在，来填我埋下的坑了。其实也是和大家一起打气：
+
+**很多事情并没有想象的那么难，只要我们敢勇敢迈出第一步**
 
 ## 写在前面
 
-如果你对编程有一些了解，那么你一定听过 **GitHub**，它有着超高人气，许多项目都托管在上面，号称程序员中的 **Facebook**。
+如果你对编程有一些了解，那么你一定听过 **GitHub**，它有着超高人气，包括 Google, Facebook, Twitter 等世界顶级互联网公司的许多项目都托管在上面，号称程序员中的 **Facebook**。
 
-当然，如果你是个设计师，不了解页没关系，下面就跟着我的步骤，开始搭建专属你的 Blog。<!--more-->
+当然，如果你不懂技术，不了解也没关系，下面就跟着我的步骤，开始搭建专属你的网站！<!--more-->
 
 ## 步骤一：安装 Git
+
+Git 是一款免费、开源的分布式版本控制系统。GitHub 是一个代码托管网站，可以托管多个 Git 库，。GitHub Pages 是免费的静态站点，而我们快速搭建网站，
 
 1. 下载并安装最新版本的 Git
 
 	下载 Git, [点击此处进入官网下载](http://git-scm.com/downloads/ "下载")
+	
+	![image](/assets/img/blog/install-git.png)
 
 1. 在你的电脑中，打开 **终端** 程序
 1. 告诉 Git 你的名字，这样你的提交会正确的标签化。输入在`$`后的内容
@@ -44,6 +52,9 @@ thumb: jekyll-icon.png
 
 - GitHub 注册和本地 Jekyll 环境配置，在 GitHub 上创建一个以`username.github.io`新的仓库。`username`就是你的用户名（或团队名）。
 
+![image](/assets/img/blog/createProject.png)
+
+
 注：如果在仓库的第一部分没有准确的匹配你的用户名，就无法正常运作，所以，请确保输入正确。
 
 ## 步骤三：克隆项目，更新并推送
@@ -60,15 +71,15 @@ thumb: jekyll-icon.png
 	cd username.github.io
 	echo "Hello World" > index.html
 	```
+	
 	扫盲一下，`cd`命令指的是`change directory`，更换目录，简单的说，就是进入到`username.github.io`这个文件夹了。`echo "Hello World" > index.html`，就意味着你生成了一个 **index.html** 文件，同时输入了一段文字 “Hello World”在这个文件里。
 	
 1. 推送至 GitHub，追踪，提交，并推送你的变化。
 
-	```
-	git add --all
-	git commit -m "Initial commit"
-	git push
-	```
+		git add --all
+		git commit -m "Initial commit"
+		git push
+
 	
 ## 步骤四：大功告成！
 
@@ -118,7 +129,14 @@ OK，到这就差不多 OK 了。
 
 在实际过程中，你可能会遇到一些麻烦，比如说 Git 命令是怎么回事，英文不好看不太懂怎么办？
 
-凉拌啊！所有事情不可能分分钟就搞定，这篇文章也只是一个引路作用，不涉及更深的层面。
+只需要简单四步，但是如果遇到问题的话，还是需要自己查文档。最后奉上一个链接供各位参考：
+
+> [利用Jekyll在GitHub Pages上部署博客](http://blog.csdn.net/zhangao0086/article/details/37922607)
+
+
+
+> [阮一峰--搭建一个免费的，无限流量的 Blog -- Jekyll 和 GitHub Pages 入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+
 
 
 
