@@ -61,7 +61,7 @@ members:
   - name: Aaron Chen
     position: Lead UX Designer
     text: 技术布道师，敏捷开发鼓吹者
-    img: dc02.jpg
+    img: dc.png
     social:
       - title: envelope #use for email address
         url: mailto:unique.aaron@gmail.com
@@ -70,7 +70,7 @@ members:
   - name: Alfred Sang
     position: Lead Developer
     text:  技术狂人
-    img: sang.jpg
+    img: sang.png
     social:
       - title: envelope #use for email address
         url: #mailto:name@domain.com
