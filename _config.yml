@@ -97,8 +97,6 @@ clients:
   - name: VimeoPro
     img: client04.png
     
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "我们从不认为设计就只是看上去的样子，设计是一个过程。"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
@@ -106,10 +104,8 @@ testimonial:
     author:  大蔚陈
     position: PM & UX Designer - MoEngine UX
 
-pygments: true
-
-
-paginate: 5
-paginate_path: 'blog/page:num'
-
-destination: _site/blog
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
