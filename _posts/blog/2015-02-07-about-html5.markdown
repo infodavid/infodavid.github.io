@@ -4,7 +4,6 @@ title: "HTML5 的那些事儿--非技术人员也能懂"
 date: 2015-02-07 22:54:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: html5.jpg
 thumb: html5-small.jpg

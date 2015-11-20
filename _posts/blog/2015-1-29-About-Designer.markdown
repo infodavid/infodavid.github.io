@@ -4,7 +4,6 @@ title:  "「美工」相关的那些职位，你知道的可能是错的"
 date:   2015-1-29 23:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: designer.jpg
 thumb: small.png

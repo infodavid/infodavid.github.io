@@ -4,7 +4,6 @@ title:  "测试一下"
 date:   2014-09-20 16:54:46
 author: David
 categories: 
-- blog
 - 设计批评
 img: post02.jpg
 thumb: thumb02.jpg

@@ -4,7 +4,6 @@ title:  "给你的终端装上强大的 oh my zsh"
 date:   2014-10-21 11:54:46
 author: David
 categories: 
-- blog
 - Framerjs
 img: framer-icon.png
 thumb: framer-icon-02.png

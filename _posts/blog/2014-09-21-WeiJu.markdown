@@ -4,7 +4,6 @@ title:  "「微聚」的糟糕设计"
 date:   2014-9-21 18:54:46
 author: David
 categories: 
-- blog
 - 设计批评
 img: weiju.png
 thumb: weiju-icon.jpg

@@ -4,7 +4,6 @@ title: "我们的时代要来了，你必须相信"
 date: 2014-04-25 16:54:46
 author: Admin
 categories: 
-- blog
 - Daily News
 img: post01.jpg
 thumb: thumb01.jpg

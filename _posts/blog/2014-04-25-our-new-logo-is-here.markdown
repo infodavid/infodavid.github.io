@@ -4,7 +4,6 @@ title:  " 先做出来再说"
 date:   2014-04-25 16:54:46
 author: David
 categories: 
-- blog
 - Redesign
 img: post02.jpg
 thumb: thumb02.jpg

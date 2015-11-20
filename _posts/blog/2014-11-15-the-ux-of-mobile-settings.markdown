@@ -4,7 +4,6 @@ title:  "移动端的设置页面体验"
 date:   2014-11-15 21:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: mobile-ux/devices-settings.gif
 thumb: small-ux.png

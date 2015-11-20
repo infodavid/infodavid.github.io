@@ -4,7 +4,6 @@ title:  "「互联网思维」能治病么？"
 date:   2014-11-05 23:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: mobile-thinking.png
 thumb: small.png

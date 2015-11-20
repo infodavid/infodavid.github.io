@@ -4,7 +4,6 @@ title:  "单页应用的定义"
 date:   2014-11-26 17:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: spa.jpg
 thumb: small-ux.png

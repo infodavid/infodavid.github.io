@@ -4,7 +4,6 @@ title:  "DPI PPI DP SP PX 概念的问题"
 date:   2014-11-19 12:54:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: dpi-ppi.png
 thumb: small.png

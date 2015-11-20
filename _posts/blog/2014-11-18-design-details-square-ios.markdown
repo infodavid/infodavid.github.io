@@ -4,7 +4,6 @@ title:  "设计细节--Square Order"
 date:   2014-11-18 21:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: order@2x.png
 thumb: small-ux.png

@@ -4,7 +4,6 @@ title: "Quartz Composer & Origami 2.0 介绍及教程（1）"
 date: 2015-03-08 22:54:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: origami.png
 thumb: origami-small.png

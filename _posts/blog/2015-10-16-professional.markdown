@@ -4,7 +4,6 @@ title:  "再谈专业主义"
 date:   2015-10-16 13:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: pro.jpg
 thumb: pro-small.png

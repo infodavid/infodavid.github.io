@@ -4,7 +4,6 @@ title: "iPhone6 和 iPhone6 Plus 的 iOS8 设计小抄表"
 date: 2014-10-10 03:21:46
 author: David
 categories: 
-- blog
 - Daily News
 img: iphone6.jpg
 thumb: iphone6-small.png

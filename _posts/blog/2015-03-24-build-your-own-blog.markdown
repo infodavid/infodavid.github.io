@@ -4,7 +4,6 @@ title: "设计师们，四步快速搭建属于你自己的网站"
 date: 2015-03-24 03:21:46
 author: 大蔚陈
 categories: 
-- blog
 - Daily News
 img: jekyll.png
 thumb: jekyll-icon.png

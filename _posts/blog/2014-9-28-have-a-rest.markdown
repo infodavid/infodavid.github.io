@@ -4,7 +4,6 @@ title: "假期学习"
 date: 2014-09-27 16:54:46
 author: David
 categories: 
-- blog
 - Others
 ---
 

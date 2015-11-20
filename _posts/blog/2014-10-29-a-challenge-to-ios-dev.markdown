@@ -4,7 +4,6 @@ title:  "编程挑战——从零开始学习 iOS 开发"
 date:   2014-10-29 18:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: swift.png
 thumb: swift.png

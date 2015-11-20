@@ -4,7 +4,6 @@ title: "你好，世界！"
 date: 2014-09-19 16:54:46
 author: David
 categories: 
-- blog
 - Daily News
 img: post03.jpg
 thumb: thumb03.jpg

@@ -4,7 +4,6 @@ title:  "现在问题来了，为什么 Android 设备需要比 iPhone 更大的
 date:   2014-10-12 18:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: iphone6.jpg
 thumb: iphone6-small.png

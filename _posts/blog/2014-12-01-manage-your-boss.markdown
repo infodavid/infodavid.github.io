@@ -4,7 +4,6 @@ title:  "把你的老板给管起来"
 date:   2014-12-28 17:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Others
 img: boss.jpg
 thumb: boss-small.png

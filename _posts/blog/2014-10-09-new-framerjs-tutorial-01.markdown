@@ -4,7 +4,6 @@ title:  "Framerjs 中文文档 01"
 date:   2014-10-09 11:54:46
 author: David
 categories: 
-- blog
 - Framerjs
 img: framer-icon.png
 thumb: framer-icon-02.png

@@ -4,7 +4,6 @@ title:  "高逼格设计师系列之 Swift 基础"
 date:   2014-12-30 17:20:46
 author: 大蔚陈
 categories: 
-- blog
 - Tutorials
 img: swift-icon.png
 thumb: swift-icon.png
