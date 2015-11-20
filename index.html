@@ -1,59 +1,72 @@
 ---
 layout: index
-title: 首页
-permalink: /
 ---
-
-<div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>设计</h4>
-                <p>好的体验不仅仅是满足用户需求和友好的可用性，甚至能让用户感到「怦然心动」，让设计更加「贴心」。</p>
-<!--                 <p><br/><a href="#" class="btn btn-theme">查看更多</a></p> -->
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>咨询服务</h4>
-                <p>我们提供「 UX 咨询」，平衡「业务目标」、「技术目标」和「用户目标」。</p>
-<!--                 <p><br/><a href="#" class="btn btn-theme">查看更多</a></p> -->
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>培训</h4>
-                <p>收费和免费培训都会有的。「不打针」「不吃药」「无痛苦」「24 小时搞定 UI/UX 设计」等等，我们都没有。</p>
-<!--                 <p><br/><a href="#" class="btn btn-theme">查看更多</a></p> -->
-            </div>		 				
-        </div>
-    </div><! --/container -->
-</div><! --/service -->
-
-{% include portfolio.html title="近期作品" limit=10 %}
-
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>关于「我们」</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">更多</a></p>
+<div class="main-content mdl-grid">
+  {% for post in paginator.posts %}
+    <div class="post mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card__media mdl-color-text--grey-50">
+        <h3>{{ post.title }}</h3>
+      </div>
+      <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+        {{ post.content | truncate:75}}
+        <p><a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">阅读全文</a></p>
+      </div>
+      <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+        <div class="david-avatar"></div>
+        <div>
+          <strong>{{ post.author }}</strong>
+          <span class="subheader">
+          {% assign d = post.date | date: "%d" | plus:'0' %}
+          {{ post.date | date: "%B" }}
+          {% case d %}
+          {% when 1 or 21 or 31 %}{{ d }}st,
+          {% when 2 or 22 %}{{ d }}nd,
+          {% when 3 or 23 %}{{ d }}rd,
+          {% else %}{{ d }}th,
+          {% endcase %}
+          {{ post.date | date: "%Y" }}
+          </span>
         </div>
 
-        <div class="col-lg-3">
-            <h4>常见问题</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
+      </div>
+    </div>
+  {% endfor %}
 
-        <div class="col-lg-3">
-            <h4>最近文章</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
+  <div class="pagination-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a class="pagination-nav__button" href="{{ site.baseurl }}{{ prepend: site.url}}">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--red mdl-color-text--white" role="presentation">
+              <i class="material-icons">arrow_back</i>
+            </button>
+          上一页
+          </a>
+        {% else %}
+          <a class="pagination-nav__button" href="{{ site.paginate_path | replace: ':num', paginator.previous_page | prepend: site.baseurl | prepend: site.url}}">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--grey mdl-color-text--white" role="presentation">
+              <i class="material-icons">arrow_back</i>
+            </button>
+          上一页
+          </a>
+        {% endif %}
+      {% else %}
 
-    </div><! --/row -->
-</div><! --/container -->
+      {% endif %}
+
+<!--     <div class="mdl-cell mdl-cell--4-col indicator subheader">
+      第 {{ paginator.page }} / {{ paginator.total_pages }} 页
+    </div> -->
+      <div class="section-spacer"></div>
+
+      {% if paginator.next_page %}
+        <a class="pagination-nav__button" href="{{ site.paginate_path | replace: ':num', paginator.next_page | prepend: site.baseurl | prepend: site.url}}">
+        下一页
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--red mdl-color-text--white" role="presentation">
+            <i class="material-icons">arrow_forward</i>
+          </button>
+        </a>
+        {% else %}
+      {% endif %}
+
+  </div>
+</div>

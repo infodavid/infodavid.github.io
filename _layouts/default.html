@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-
-    {% include head.html %}
-
-    <body>
-        {% include nav.html %}
-
-            {{ content }}
-
-        {% include footer.html %}
-        {% include js.html %}
-    </body>
+  {% include head.html %}
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  {% include header.html %}
+    <main class="mdl-layout__content main-container">
+      <div class="mdl-layout-content">
+        <div class="blog-content mdl-color--white content mdl-color-text--grey-800 mdl-cell">
+          {{ content }}
+        </div>
+      </div>
+      {% include footer.html %}
+    </main>
+  </div>
+  {% include js.html %}
+</body>
 </html>

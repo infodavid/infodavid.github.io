@@ -2,43 +2,109 @@
 layout: default
 ---
 
-{% include wrap.html %}
+<div class="main-content mdl-grid">
+  <div class="post mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+    <div class="mdl-card__title mdl-card__media mdl-color-text--grey-50">
+        <h3>{{ page.title }}</h3>
+    </div>
+    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+      <div class="david-avatar"></div>
+      <div>
+        <strong>{{ page.author }}</strong>
+        <span class="subheader">
+        {% assign d = page.date | date: "%d" | plus:'0' %}
+        {{ page.date | date: "%B" }}
+        {% case d %}
+        {% when 1 or 21 or 31 %}{{ d }}st,
+        {% when 2 or 22 %}{{ d }}nd,
+        {% when 3 or 23 %}{{ d }}rd,
+        {% else %}{{ d }}th,
+        {% endcase %}
+        {{ page.date | date: "%Y" }}
+        </span>
+      </div>
+    </div>
 
-<div class="container mtb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-lg-8">
-            <! -- Blog Post  -->
-<!--             <p><img class="img-responsive" src="/assets/img/blog/{{ | prepend: site.baseurl }}{{ post.img }}"></p> -->
-            <p><img class="img-responsive" src="/assets/img/blog/{{ | prepend: site.baseurl }}{{ page.img }}"></p>
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | 作者: {{ page.author }}</csmall></p>
-              
-            {{ content }}
+      <!--分类-->
+    <div class="categories">
+      {% unless page.categories == empty %}
+        分类:
+        <ul class="categories-list">
+          {% assign categories_list = page.categories %}
+          {% if categories_list.first[0] == null %}
+            {% for category in categories_list %}
+              <li>
+                <a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category }}-ref">
+                  {{ category | join: "/" }}{% unless forloop.last %},{% endunless %}
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            {% for category in categories_list %}
+              <li><a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category[0] }}-ref">
+                {{ category[0] | join: "/" }}
+              </a></li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      {% endunless %}
+    </div>
+        <!--标签-->
+    <div class="tags">
+      {% unless page.tags == empty %}
+        标签:
+        <ul class="list-inline">
+          {% assign tags_list = page.tags %}
+          {% if tags_list.first[0] == null %}
+          {% for tag in tags_list %}
+            <li>
+              <a href="{{ site.BASE_PATH }}/{{ site.tags_path }}#{{ tag }}-ref">
+              {{ tag }}{% unless forloop.last %},{% endunless %}
+              </a>
+            </li>
+          {% endfor %}
+          {% else %}
+          {% for tag in tags_list %}
+            <li>
+              <a href="{{ site.BASE_PATH }}/{{ site.tags_path }}#{{ tag[0] }}-ref">
+                {{ tag[0] }}{% unless forloop.last %},{% endunless %}
+              </a>
+            </li>
 
-            <div class="spacing"></div>
-            <!-- <h6>SHARE:</h6>
-            <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
-            </p> -->
-            <ul class="pager">
-                {% if page.next.url %}
-                <li class="next">
-                    <a href="{{ site.baseurl }}{{page.next.url}}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇 &rarr;</a>
-                </li>
-                {% endif %} 
-                {% if page.previous.url %}
-                <li class="previous">
-                    <a href="{{ site.baseurl }}{{page.previous.url}}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 上一篇</a> 
-                </li>
-                {% endif %} 
-            </ul>
-        </div><! --/col-lg-8 -->
-        
-        {% include sidebar.html %}
+          {% endfor %}
+          {% endif %}
+          {% assign tags_list = nil %}
+        </ul>
+      {% endunless %}
+    </div>
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+  </div>
+  <div class="pagination-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    {% if page.previous %}
+        <a class="pagination-nav__button" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--red mdl-color-text--white" role="presentation">
+            <i class="material-icons">arrow_back</i>
+          </button>
+        上一篇
+        </a>
+    {% else %}
 
-    </div><! --/row -->
-</div><! --/container -->
+    {% endif %}
+    
+    <div class="section-spacer"></div>
+
+    {% if page.next %}
+      <a class="pagination-nav__button" href="{{ page.next.url }}" title="{{ page.next.title }}">
+      下一篇
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--red mdl-color-text--white" role="presentation">
+          <i class="material-icons">arrow_forward</i>
+        </button>
+      </a>
+      {% else %}
+    {% endif %}
+  </div>
+</div>

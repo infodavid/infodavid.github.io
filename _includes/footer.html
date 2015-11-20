@@ -1,29 +1,8 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>关于</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>社交媒体</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>地址</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<footer class="blog-footer mdl-mini-footer">
+  <ul class="mdl-mini-footer__link-list">
+    <li class="mdl-mini-footer--social-btn"><a href="www.idavichen.com" class="social-btn social-btn__facebook" role="button" title="facebook"></a></li>
+    <li class="mdl-mini-footer--social-btn"><a href="www.idavichen.com" class="social-btn social-btn__github" role="button" title="github"></a></li>
+    <li class="mdl-mini-footer--social-btn"><a href="www.idavichen.com" class="social-btn social-btn__zhihu" role="button" title="zhihu"></a></li>
+  </ul>
+  <h5>反对人云亦云，拒绝同流合污</h5>
+</footer>

@@ -1,15 +1,31 @@
-<div id="headerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h3>一个美妙的开始</h3>
-                <h1>We Design Things For People.</h1>
-                <h5>暂时还没有响亮的口号，先看看我们到底能干什么吧。</h5>
-                <h5>让我们试试.</h5>				
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 himg">
-                <img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">
-            </div>
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div><!-- /headerwrap -->
+
+  <header class="blog-header mdl-layout__header mdl-color--grey-100">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">
+        大蔚陈
+      </span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/">首页</a>
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/categories{{ categories.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">分类</a>
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/about{{ categories.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}">关于</a>
+      </nav>
+    </div>
+  </header><!--end header -->
+
+
+  <div class="blog-drawer mdl-layout__drawer">
+    <header class="profile-mobile">
+      <div class="info-container">
+        <img src="/assets/img/avatar.png">
+      </div>
+      <h3>大蔚陈</h3>
+      <h5>Product Manager & UX Designer</h5>
+    </header>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}{{ site.url }}"><i class="material-icons">home</i>首页</a>
+      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href="/categories{{ categories.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}"><i class="material-icons">foldert</i>分类</a>
+      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect" href=""><i class="material-icons">face</i>关于</a>
+    </nav>
+  </div>
+

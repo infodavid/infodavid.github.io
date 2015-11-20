@@ -1,15 +1,15 @@
-### GENERAL SETTINGS ###
-
 # Site settings
 title: 大蔚陈
 description: "专注于产品与用户体验设计。Framer.js, Quartz Composer"
-baseurl: ""
+baseurl: "/"
 url: "www.idavidchen.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+paginate: 5
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+paginate_path: "page/:num"
+highlighter: pygments
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" 
@@ -20,91 +20,5 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url: https://www.facebook.com/idavidchen
-  - title: twitter
-    url: https://twitter.com/idavid_info
-  - title: instagram
-    url: http://instagram.com/idavidinfo/
-  - title: tumblr
-    url: http://infodavid.tumblr.com/
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - 民旺园
-    - 东城区，北京
-email: idavid.info@gmail.com
-tel: +86 185 **** ****
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Members information. Shown on About page.
-members:
-  - name: David Chen
-    position: PM & UX Designer
-    text: 产品经理及用户体验设计师
-    img: dc01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:idavid.info@gmail.com
-      - title: twitter
-        url: https://twitter.com/idavid_info
-  - name: Aaron Chen
-    position: Lead UX Designer
-    text: 技术布道师，敏捷开发鼓吹者
-    img: dc.png
-    social:
-      - title: envelope #use for email address
-        url: mailto:unique.aaron@gmail.com
-      - title: twitter
-        url: #http://twitter.com/
-  - name: Alfred Sang
-    position: Lead Developer
-    text:  技术狂人
-    img: sang.png
-    social:
-      - title: envelope #use for email address
-        url: #mailto:name@domain.com
-      - title: twitter
-        url: #
-  - name: Mr.Zoe
-    position: Marketing
-    text:  老奸巨猾商人一枚
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:idavid.dev@gmail.com
-      - title: twitter
-        url: #http://twitter.com/
-
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "让我先测试一下"
-    author:  大蔚陈
-    position: PM & UX Designer - MoEngine UX
-
-# Build settings
-markdown: kramdown
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
-highlighter: pygments
+sass:
+  style: compressed
