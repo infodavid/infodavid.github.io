@@ -59,7 +59,7 @@ layout: index
       <div class="section-spacer"></div>
 
       {% if paginator.next_page %}
-        <a class="pagination-nav__button" href="{{ site.paginate_path | replace: ':num', paginator.next_page | prepend: site.baseurl }}">
+        <a class="pagination-nav__button" href="{{ site.paginate_path | replace: ':num', paginator.next_page | prepend: site.baseurl | prepend: site.url }}">
         下一页
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--red mdl-color-text--white" role="presentation">
             <i class="material-icons">arrow_forward</i>
