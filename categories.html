@@ -20,7 +20,7 @@ permalink: /categories/
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if group == null or group == node.group %}
-              <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ node.url | replace_first: '/', '' | prepend: site.baseurl}}">
+              <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ node.url | replace_first: '/categories', '' | prepend: site.baseurl}}">
                 <span class="button-header">
                   {{node.title}}
                 </span>
