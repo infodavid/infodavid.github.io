@@ -9,7 +9,7 @@ layout: index
       </div>
       <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
         {{ post.content | truncate:75}}
-        <p><a class="mdl-button mdl-button--accent" href="{{ post.url | prepend: site.baseurl }}">阅读全文</a></p>
+        <p><a class="mdl-button mdl-button--accent" href="{{ post.url | replace_first: '/', '' | prepend: site.baseurl }}">阅读全文</a></p>
       </div>
       <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
         <div class="david-avatar"></div>
