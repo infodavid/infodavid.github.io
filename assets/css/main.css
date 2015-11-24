@@ -336,6 +336,14 @@ display: block;
   min-height: 64px;
 }
 
+.post .mdl-card__supporting-text article {
+  padding-right: 50px;
+}
+
+.post .mdl-card__supporting-text article  img{
+  max-width: 100%;
+}
+
 .post .mdl-card__supporting-text strong {
   font-weight: 400;
 }
