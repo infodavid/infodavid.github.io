@@ -23,7 +23,7 @@ categories:
 
 想好这两件事情后，我先去各大网站浏览了一遍，看看风格，然后就开始在纸上画了个草图。
 
-![image](../assets/img/website-sketch.jpg)
+![image](/assets/img/website-sketch.jpg)
 
 然后因为 Material Design 里很多的样式和效果，如果是自己全手写代码，那估计得要很长的时间，所以我选择了 Material Design Lite 这个 Google 官方出的样式库。
 
@@ -31,7 +31,7 @@ categories:
 
 接着就开始了代码过程了，最后上线前，我还用 Sketch 给自己画了个头像。
 
-![image](../assets/img/avatar.png)
+![image](/assets/img/avatar.png)
 
 前两天把百度统计给嵌进去了，方便我看看 UV/PV。再到后来，就是大家看到的现在这个样子了。
 
