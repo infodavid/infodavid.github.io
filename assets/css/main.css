@@ -48,12 +48,12 @@ a img{
 
 ::-moz-selection {
   background-color: #6ab344;
-  color: #919CA4
+  color: #FFFFFF;
 }
 
 ::selection {
   background-color: #6ab344;
-  color: #919CA4;
+  color: #FFFFFF;
 }
 
 .blog-header .mdl-menu__container {
